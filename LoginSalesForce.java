@@ -29,7 +29,7 @@ public class LoginSalesForce {
 		
 		driver.findElementByXPath("//mark[text() = 'Contracts']").click();
 		
-		driver.findElementByXPath("//span[text() = 'Recently Viewed | Contracts' ]/following::lightning-primitive-icon[1]");
+		driver.findElementByXPath("//span[text() = 'Recently Viewed | Contracts' ]/following::lightning-primitive-icon[1]").click();
 		
 		driver.findElementByXPath("//span[text() = 'New Contract']").click();
 		
